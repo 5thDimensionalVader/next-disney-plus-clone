@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { Header } from '../components/Header';
 import { getSession, useSession } from 'next-auth/react';
 import Hero from '../components/Hero';
+import Slider from '../components/Slider';
 
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
         <Hero />
       ) : (
         <main>
-          MAIN APP
+          <Slider />
         </main>
       )}
     </>
