@@ -8,7 +8,7 @@
 
 @layer base {
   body {
-    @apply bg-[#040714] text-white font-body
+    @apply bg-[#040714] text-white font-body scrollbar-hide
   }
 }
 
