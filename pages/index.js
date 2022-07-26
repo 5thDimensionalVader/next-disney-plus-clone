@@ -29,10 +29,10 @@ export default function Home({
         <Main>
           <Slider />
           <Brands />
-          <MediaCollection results={popularMovies} title="Popular Movies" mediaType="movie"/>
-          <MediaCollection results={popularShows} title="Popular Shows" mediaType="show"/>
-          <MediaCollection results={top_ratedMovies} title="Top Rated Movies" mediaType="movie"/>
-          <MediaCollection results={top_ratedShows} title="Top Rated Shows" mediaType="show"/>
+          <MediaCollection results={popularMovies} title="Popular Movies" mediaType="movie" />
+          <MediaCollection results={popularShows} title="Popular Shows" mediaType="show" />
+          <MediaCollection results={top_ratedMovies} title="Top Rated Movies" mediaType="movie" />
+          <MediaCollection results={top_ratedShows} title="Top Rated Shows" mediaType="show" />
         </Main>
       )}
     </>
@@ -68,8 +68,6 @@ export async function getServerSideProps() {
       top_ratedMoviesRes.json(),
       top_ratedShowsRes.json(),
     ]);
-
-  console.log(popularMovies);
 
   return {
     props: {
