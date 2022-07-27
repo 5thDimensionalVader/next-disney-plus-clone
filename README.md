@@ -32,8 +32,9 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![Homepage](/assets/hero.png)
+![Homepage once authenticated](/assets/main.png)
+![TV Show](/assets/st_show.png)
 
 ## Environment Variables
 
